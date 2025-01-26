@@ -14,12 +14,12 @@ This project implements:
 
 ```
 .
-├── models/                   # Modules for language models
-│   ├── base.py               # Base class for n-gram models
-│   ├── laplace.py            # Laplace smoothing
-│   ├── good_turing.py        # Good-Turing smoothing
-│   └── interpolation.py      # Interpolation smoothing
 ├── src/
+│   ├── models/                   # Modules for language models
+│   │   ├── base.py               # Base class for n-gram models
+│   │   ├── laplace.py            # Laplace smoothing
+│   │   ├── good_turing.py        # Good-Turing smoothing
+│   │   └── interpolation.py      # Interpolation smoothing
 │   ├── language_model.py     # Language model
 │   ├── generator.py          # Text generation
 │   └── tokenizer.py          # Tokenization implementation
