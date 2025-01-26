@@ -1,0 +1,6 @@
+*.zip
+results/
+b*/
+
+venv/
+__pycache__/
